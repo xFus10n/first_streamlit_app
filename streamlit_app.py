@@ -40,9 +40,8 @@ try:
 
 except URLError as e:
   streamlit.error()
-  
-streamlit.stop()
 
+# Snow section
 streamlit.header("The fruit load list contains:")
 #snow function
 def get_fruit_load_List():
